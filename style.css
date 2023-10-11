@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    color: #132a13;
+    font-family: 'Young Serif', serif;
+    flex-direction: column;
+    background-image: url(asset/download.jpeg);
+    display: flex;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow-x: hidden; 
+    align-items: center;
+    
+}
+
+.container{
+    max-width: 680px;
+    margin: 10px;
+    padding: 50px 0 100px 0px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.img-container img{
+    width: 200px;
+    border-radius: 50%;
+}
+
+.img {
+    opacity: 50%;
+}
+.title-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color:#bfc0c0 ;
+}
+
+.link-item {
+    width: 100%;
+    height: 56px;
+    margin: 16px;
+    border-radius: 20px;
+    background-color: aliceblue;
+    text-decoration: none;
+    color: #4a4e69;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon {
+    margin: 3px 8px;
+    width: 44px;
+    height: 44px;
+}
+
+.link-item p {
+    margin-right: 60px;
+}
+
+.link-item:hover {
+    transform: scale(1.05);
+    transition: cubic-bezier(.07, 1.41, .82, 1.41, 0.25) 0.2s;
+    background-color: #bde0fe;
+    transition-duration: 0.5s;
+}
